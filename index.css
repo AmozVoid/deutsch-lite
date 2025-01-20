@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial;
+}
+
+/*buttons styling */
+
+.btn{
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.02s ease;
+ 
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* sub headings of all sections are given same style*/
+.sub-headings{
+    color: #4b79a1;
+    font-size: 2rem;
+}
+
+/* section comands which are same */
+
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+/* header styling*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    background: #00203f;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+header h1{
+    margin: 0.5rem;
+}
+
+header img {
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    padding: 3px;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 3px;
+}
+
+header img:hover{
+    border: 1px solid black;
+}
+
+
+/* hero section styling */
+.hero-section{
+    color:#ffffff ;
+    background:#00203f;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hero-section a {
+    background: #00203f;
+    border: 0.01rem solid white;
+}
+/* notes section styling*/
+.notes-section a{
+    background: #00203f;
+}
+
+.note-previews{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.notes-box{
+
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    
+}
+
+.notes-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15)
+
+}
+
+.notes-box h3{
+    color:#00203f;
+}
+
+/* contact us */
+.contact-box{
+    background:#ffffff;
+    border:1px solid#ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+/* about us section */
+
+.about-box{
+    background:#ffffff;
+    border:1px solid#ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+/* footer styling*/
+
+footer{
+    color: white;
+    background: #00203f;
+   
+}
+
