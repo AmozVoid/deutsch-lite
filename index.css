@@ -87,6 +87,13 @@ header img:hover{
     background: #00203f;
     border: 0.01rem solid white;
 }
+
+.main-box{
+    background-color:#ffffff;
+    width: 95%;
+    height: 20%;
+    color: #00203f;
+}
 /* notes section styling*/
 .notes-section a{
     background: #00203f;
