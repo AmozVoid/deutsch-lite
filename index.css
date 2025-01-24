@@ -75,10 +75,9 @@ header img:hover{
 .hero-section{
     color:#ffffff ;
     background:#00203f;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 
 }
@@ -91,8 +90,24 @@ header img:hover{
 .main-box{
     background-color:#ffffff;
     width: 95%;
-    height: 20%;
-    color: #00203f;
+    height: 50%;
+    margin-top:3%;
+    padding:4%;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.main-box h1{
+    color:#00203f;
+    font-size:5rem;
+}
+
+.main-box h2{
+    color:#4b79a1;
+    font-size:2rem;
 }
 /* notes section styling*/
 .notes-section a{
