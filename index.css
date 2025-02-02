@@ -139,7 +139,8 @@ header img:hover{
 }
 
 .hero-section p{
-    margin: 2%;
+    text-align: center;
+    margin: 3%;
     font-size: 2rem;
 }
 
