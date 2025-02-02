@@ -35,9 +35,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem;
     padding: 1rem;
 }
+
+.prievew-box{
+    background:#ffffff;
+    border:1px solid#ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.prievew-box h3{
+    color:#00203f;
+}
+
+
 
 /* header styling*/
 
@@ -79,6 +93,8 @@ header img:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
+    
 
 }
 
@@ -90,7 +106,7 @@ header img:hover{
 .main-box{
     background-color:#ffffff;
     width: 95%;
-    height: 50%;
+    height: 40%;
     margin-top:3%;
     padding:4%;
     border-radius:10px;
@@ -108,6 +124,18 @@ header img:hover{
 .main-box h2{
     color:#4b79a1;
     font-size:2rem;
+}
+
+.material-boxes{
+    display:flex;
+    flex-direction:row;
+
+}
+.mbox{
+    background-color:#ddd;
+    width: 2rem;
+    height:2rem;
+    margin:1rem;
 }
 /* notes section styling*/
 .notes-section a{
@@ -141,26 +169,8 @@ header img:hover{
     color:#00203f;
 }
 
-/* contact us */
-.contact-box{
-    background:#ffffff;
-    border:1px solid#ddd;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom:1rem;
-}
 
-/* about us section */
 
-.about-box{
-    background:#ffffff;
-    border:1px solid#ddd;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom:1rem;
-}
 
 /* footer styling*/
 
