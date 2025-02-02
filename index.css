@@ -38,7 +38,7 @@
     padding: 1rem;
 }
 
-.prievew-box{
+.preview-box{
     background:#ffffff;
     border:1px solid#ddd;
     border-radius: 0.5rem;
@@ -47,8 +47,20 @@
     margin-bottom:1rem;
 }
 
-.prievew-box h3{
+.preview-box h3{
     color:#00203f;
+    margin: 0.01rem;
+    font-size: 1.3rem;
+}
+
+.preview-box p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.preview-box a{
+    color: #00203f;
 }
 
 
