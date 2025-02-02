@@ -143,12 +143,7 @@ header img:hover{
     flex-direction:row;
 
 }
-.mbox{
-    background-color:#ddd;
-    width: 2rem;
-    height:2rem;
-    margin:1rem;
-}
+
 /* notes section styling*/
 .notes-section a{
     background: #00203f;
