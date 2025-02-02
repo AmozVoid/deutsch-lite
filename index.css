@@ -139,8 +139,7 @@ header img:hover{
 }
 
 .hero-section p{
-    text-align: center;
-    margin: 3%;
+    margin: 2%;
     font-size: 2rem;
 }
 
@@ -204,6 +203,12 @@ footer{
     .main-box h2{
         color:#4b79a1;
         font-size:1.4rem;
+    }
+
+    .hero-section p{
+        text-align: center;
+        margin: 4%;
+        font-size: 1rem;
     }
 
   }
