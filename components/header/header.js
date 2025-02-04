@@ -20,6 +20,6 @@ export class Header{
     render(){
         this.addHeaderStyles();
 
-        document.body.prepend(this.createHeader);
+        document.body.prepend(this.createHeader());
     }
 }
