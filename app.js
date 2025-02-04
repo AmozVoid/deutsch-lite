@@ -1,4 +1,4 @@
-import { Header } from "./index components.js";
+import { Header } from "./index.js";
 
 function initApp(){
     const header = new Header();
