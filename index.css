@@ -138,11 +138,10 @@ header img:hover{
     font-size:2rem;
 }
 
-.hero-section p{
-    margin: 2%;
-    font-size: 2rem;
+.material-box{
+    display: felx;
+    align-items: center;
 }
-
 
 
 /* notes section styling*/
@@ -200,6 +199,18 @@ footer{
         color:#4b79a1;
         font-size:1.4rem;
     }
+
+    @media only screen and (max-width: 768px) {
+        .material-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 3%;
+        }
+    }
+    
+
 
   }
   
