@@ -3,7 +3,8 @@ export class Header{
         const link = document.createElement('link');
 
         link.rel = 'stylesheet';
-        link.href = './components/header/header.css';
+        link.href = '../components/header/header.css';
+        
 
         document.head.appendChild(link);
     }
