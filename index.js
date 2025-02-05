@@ -1,3 +1,4 @@
-import { Header } from "./components/header/header.js";
+import { Header }from "./components/header/header.js";
+import { Footer } from "./components/footer/footer.js";
 
-export{Header};
+export { Header, Footer };
