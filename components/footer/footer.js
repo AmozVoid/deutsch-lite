@@ -1,8 +1,8 @@
 export function Footer(){
     const link = document.createElement('link');
-    link.rel = 'StyleSheet';
+    link.rel = 'Stylesheet';
     link.href = './components/footer/footer.css';
-    document.head.appendChild('link');
+    document.head.appendChild(link);
     const footer = document.createElement('footer');
 
     footer.innerHTML = ` 
