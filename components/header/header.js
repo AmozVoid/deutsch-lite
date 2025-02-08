@@ -13,7 +13,7 @@ export class Header{
 
         header.innerHTML =  `
         <h1>Deutsch Lite</h1>
-        <img src="icons/hamburger.png" alt="hamburger menu">`;
+        <img src="./icons/hamburger.png" alt="hamburger menu">`;
 
         return header;
     }
