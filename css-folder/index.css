@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial;
+}
+
+/*buttons styling */
+
+.btn{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: transform 0.02s ease;
+ 
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* sub headings of all sections are given same style*/
+.sub-headings{
+    color: #4b79a1;
+    font-size: 2rem;
+}
+
+/* section comands which are same */
+
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.preview-box{
+    background:#ffffff;
+    border:1px solid#ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.preview-box h3{
+    color:#00203f;
+    margin: 0.01rem;
+    font-size: 1.3rem;
+}
+
+.preview-box p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.preview-box a{
+    color: #00203f;
+}
+
+
+
+
+/* hero section styling */
+.hero-section{
+    color:#ffffff ;
+    background:#00203f;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+
+}
+
+.hero-section a {
+    background: #00203f;
+    border: 0.01rem solid white;
+}
+
+.main-box{
+    background-color:#ffffff;
+    width: 95%;
+    height: 40%;
+    margin-top:3%;
+    padding:4%;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.main-box h1{
+    color:#00203f;
+    font-size:5rem;
+}
+
+.main-box h2{
+    color:#4b79a1;
+    font-size:2rem;
+}
+
+.material-box{
+    display: felx;
+    align-items: center;
+}
+
+
+/* notes section styling*/
+.notes-section a{
+    background: #00203f;
+}
+
+.note-previews{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.notes-box{
+
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin:0.5rem;
+    padding: 1rem;
+    
+}
+
+.notes-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15)
+
+}
+
+.notes-box h3{
+    color:#00203f;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Your styles for phone screens here */
+
+    .main-box h1{
+
+        font-size:5rem;
+    }
+
+    .main-box h2{
+        color:#4b79a1;
+        font-size:1.4rem;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .material-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 3%;
+        }
+    }
+    
+
+
+  }
+  
