@@ -47,3 +47,20 @@ footer{
     background: #00203f;
    
 }
+
+/* heading style  */ 
+/* same in every files */
+/* gn.heading stands for general heading */
+.gn-heading{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color:#4b79a1;
+    font-size: 90px;
+}
+.heading-line{
+    height: 7px;
+    width: 30vw;
+    background-color: #00203f;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
