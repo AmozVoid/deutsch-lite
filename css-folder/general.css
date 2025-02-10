@@ -6,7 +6,6 @@
 }
 
 /* header */
-
 /* header styling*/
 
 header{
@@ -39,13 +38,47 @@ header img:hover{
 }
 
 /* footer */
-
 /* footer styling*/
 
-footer{
+footer {
     color: white;
     background: #00203f;
-   
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin: 10px 0;
+}
+
+.social-icon {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.social-icon:hover {
+    color: #f0a500;
 }
 
 /* heading style  */ 

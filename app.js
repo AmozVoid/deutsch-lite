@@ -10,11 +10,27 @@ function Header(){
 
 // footer
 
-function Footer(){
+function Footer() {
     const createFooter = document.createElement('footer');
-    createFooter.innerHTML = `<p>all is well...</p>`;
+    createFooter.innerHTML = `
+      <div class="footer-content">
+        <p>All is well...</p>
+        <div class="footer-links">
+          <a href="/index.html">Home</a> |
+           <a href="/pages/explore.html">Explore</a> |
+          <a href="#">About Us</a> | 
+          <a href="#">Contact</a> 
+         
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-icon">📺 YouTube</a>
+          <a href="#" class="social-icon">📸 Instagram</a>
+          <a href="#" class="social-icon">✖️ X</a>
+        </div>
+      </div>
+    `;
     document.body.appendChild(createFooter);
-};
+}
 
 function initApp(){
     Header();
