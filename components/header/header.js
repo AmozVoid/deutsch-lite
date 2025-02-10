@@ -3,7 +3,7 @@ export class Header{
         const link = document.createElement('link');
 
         link.rel = 'stylesheet';
-        link.href = '../components/header/header.css';
+        link.href = '/components/header/header.css';
         
 
         document.head.appendChild(link);
@@ -13,7 +13,7 @@ export class Header{
 
         header.innerHTML =  `
         <h1>Deutsch Lite</h1>
-        <img src="./icons/hamburger.png" alt="hamburger menu">`;
+        <img src="../icons/hamburger.png" alt="hamburger menu">`;
 
         return header;
     }
