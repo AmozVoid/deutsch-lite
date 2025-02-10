@@ -4,3 +4,46 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial;
 }
+
+/* header */
+
+/* header styling*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    background: #00203f;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+header h1{
+    margin: 0.5rem;
+}
+
+header img {
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    padding: 3px;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 3px;
+}
+
+header img:hover{
+    border: 1px solid black;
+}
+
+/* footer */
+
+/* footer styling*/
+
+footer{
+    color: white;
+    background: #00203f;
+   
+}
