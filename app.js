@@ -3,7 +3,7 @@ function Header() {
     const createHeader = document.querySelector('header');
     createHeader.innerHTML = `
         <h1>Deutsch Lite</h1>
-        <img src="/icons/hamburger.png" alt="hamburger menu" onclick="toggleNav()"></img>`;
+        <img src="./icons/hamburger.png" alt="hamburger menu" onclick="toggleNav()"></img>`;
 }
 
 // footer
