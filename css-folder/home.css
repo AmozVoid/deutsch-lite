@@ -58,7 +58,7 @@
 }
 
 
-
+/* --------------- */
 
 /* hero section styling */
 .hero-section{
@@ -105,20 +105,18 @@
     display: felx;
     align-items: center;
 }
-
+/* --------------------------- */
 
 /* notes section styling*/
-.notes-section a{
-    background: #00203f;
-}
-
+/* note-box design */
 .note-previews{
     display: flex;
     justify-content: center;
-    flex-wrap:wrap;
     margin-top: 1rem ;
     margin-bottom: 1rem;
 }
+
+
 .notes-box{
 
     background: #ffffff;
@@ -137,6 +135,10 @@
 
 .notes-box h3{
     color:#00203f;
+}
+
+.notes-section a{
+    background: #00203f;
 }
 
 

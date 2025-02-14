@@ -81,6 +81,28 @@ footer {
     color: #f0a500;
 }
 
+/* note-box design */
+
+.notes-box{
+
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin:0.5rem;
+    padding: 1rem;
+    
+}
+
+.notes-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15)
+
+}
+
+.notes-box h3{
+    color:#00203f;
+}
+
 /* heading style  */ 
 /* same in every files */
 /* gn.heading stands for general heading */
@@ -88,12 +110,107 @@ footer {
     margin-top: 1rem;
     margin-left: 1rem;
     color:#4b79a1;
-    font-size: 90px;
+    font-size: 40px;
 }
 .heading-line{
     height: 7px;
-    width: 30vw;
+    width: 90vw;
     background-color: #00203f;
     margin-left: 1rem;
     margin-bottom: 1rem;
+    border-radius: 50px;
+}
+
+
+table {
+    margin: 50px auto; /* Centers the table horizontally */
+    border-collapse: collapse;
+    width: 70%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .letters {
+    font-weight: bold;
+  }
+
+
+
+
+
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #00203f;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+.nav-open {
+    width: 15%;
+}
+
+/* Add a button to open the nav */
+.nav-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #00203f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-toggle:hover {
+    background-color: #f0a500;
 }
