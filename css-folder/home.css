@@ -107,16 +107,13 @@
 }
 /* --------------------------- */
 
-/* notes section styling*/
-/* note-box design */
 .note-previews{
     display: flex;
     justify-content: center;
+    flex-wrap:wrap;
     margin-top: 1rem ;
     margin-bottom: 1rem;
 }
-
-
 .notes-box{
 
     background: #ffffff;
@@ -137,9 +134,6 @@
     color:#00203f;
 }
 
-.notes-section a{
-    background: #00203f;
-}
 
 
 
