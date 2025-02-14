@@ -1,0 +1,198 @@
+[
+    {
+        "title": "Alphabets",
+        "description": "Learn the basics of the German alphabet.",
+        "content": [
+            {
+                "type": "paragraph",
+                "description": "The German alphabet consists of 30 letters. It includes 26 letters that are identical to the English alphabet, plus 4 unique characters (Ä, Ö, Ü, and ß), each with its own distinct pronunciation."
+            },
+            {
+                "type": "table",
+                "data": [
+                    { "letter": "A", "pronunciation": "Ah" },
+                    { "letter": "B", "pronunciation": "Beh" },
+                    { "letter": "C", "pronunciation": "Tseh" },
+                    { "letter": "D", "pronunciation": "Deh" },
+                    { "letter": "E", "pronunciation": "Eh" },
+                    { "letter": "F", "pronunciation": "Eff" },
+                    { "letter": "G", "pronunciation": "Geh" },
+                    { "letter": "H", "pronunciation": "Hah" },
+                    { "letter": "I", "pronunciation": "Ih" },
+                    { "letter": "J", "pronunciation": "Yot" },
+                    { "letter": "K", "pronunciation": "Kah" },
+                    { "letter": "L", "pronunciation": "Ell" },
+                    { "letter": "M", "pronunciation": "Emm" },
+                    { "letter": "N", "pronunciation": "Enn" },
+                    { "letter": "O", "pronunciation": "Oh" },
+                    { "letter": "P", "pronunciation": "Peh" },
+                    { "letter": "Q", "pronunciation": "Kuh" },
+                    { "letter": "R", "pronunciation": "Err (guttural sound)" },
+                    { "letter": "S", "pronunciation": "Ess" },
+                    { "letter": "T", "pronunciation": "Teh" },
+                    { "letter": "U", "pronunciation": "Uh" },
+                    { "letter": "V", "pronunciation": "Fau" },
+                    { "letter": "W", "pronunciation": "Veh" },
+                    { "letter": "X", "pronunciation": "Iks" },
+                    { "letter": "Y", "pronunciation": "Üpsilon" },
+                    { "letter": "Z", "pronunciation": "Tset" },
+                    { "letter": "Ä", "pronunciation": "Ah-umlaut (like 'eh' in 'men')" },
+                    { "letter": "Ö", "pronunciation": "Oh-umlaut (like 'ur' in 'fur')" },
+                    { "letter": "Ü", "pronunciation": "Uh-umlaut (like French 'u')" },
+                    { "letter": "ß", "pronunciation": "Eszett or sharp 's'" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Common Phrases",
+        "description": "Learn useful German phrases for daily conversations.",
+        "content": [
+            {
+                "type": "paragraph",
+                "description": "Here are some common German phrases that you can use in daily conversations."
+            },
+            {
+                "type": "table",
+                "data": [
+                    { "phrase": "Guten Morgen", "meaning": "Good morning" },
+                    { "phrase": "Wie geht's?", "meaning": "How are you?" },
+                    { "phrase": "Danke", "meaning": "Thank you" },
+                    { "phrase": "Bitte", "meaning": "Please/You're welcome" },
+                    { "phrase": "Entschuldigung", "meaning": "Excuse me/Sorry" },
+                    { "phrase": "Ja", "meaning": "Yes" },
+                    { "phrase": "Nein", "meaning": "No" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Numbers",
+        "description": "Learn how to count in German.",
+        "content": [
+            {
+                "type": "paragraph",
+                "description": "The German language has unique words for numbers. Here are the numbers from 1 to 10 in German."
+            },
+            {
+                "type": "table",
+                "data": [
+                    { "number": "1", "word": "Eins" },
+                    { "number": "2", "word": "Zwei" },
+                    { "number": "3", "word": "Drei" },
+                    { "number": "4", "word": "Vier" },
+                    { "number": "5", "word": "Fünf" },
+                    { "number": "6", "word": "Sechs" },
+                    { "number": "7", "word": "Sieben" },
+                    { "number": "8", "word": "Acht" },
+                    { "number": "9", "word": "Neun" },
+                    { "number": "10", "word": "Zehn" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Days of the Week",
+        "description": "Learn the days of the week in German.",
+        "content": [
+            {
+                "type": "table",
+                "data": [
+                    { "day": "Monday", "german": "Montag" },
+                    { "day": "Tuesday", "german": "Dienstag" },
+                    { "day": "Wednesday", "german": "Mittwoch" },
+                    { "day": "Thursday", "german": "Donnerstag" },
+                    { "day": "Friday", "german": "Freitag" },
+                    { "day": "Saturday", "german": "Samstag" },
+                    { "day": "Sunday", "german": "Sonntag" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Months of the Year",
+        "description": "Learn the months of the year in German.",
+        "content": [
+            {
+                "type": "table",
+                "data": [
+                    { "month": "January", "german": "Januar" },
+                    { "month": "February", "german": "Februar" },
+                    { "month": "March", "german": "März" },
+                    { "month": "April", "german": "April" },
+                    { "month": "May", "german": "Mai" },
+                    { "month": "June", "german": "Juni" },
+                    { "month": "July", "german": "Juli" },
+                    { "month": "August", "german": "August" },
+                    { "month": "September", "german": "September" },
+                    { "month": "October", "german": "Oktober" },
+                    { "month": "November", "german": "November" },
+                    { "month": "December", "german": "Dezember" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Colors",
+        "description": "Learn the names of colors in German.",
+        "content": [
+            {
+                "type": "table",
+                "data": [
+                    { "color": "Red", "german": "Rot" },
+                    { "color": "Blue", "german": "Blau" },
+                    { "color": "Green", "german": "Grün" },
+                    { "color": "Yellow", "german": "Gelb" },
+                    { "color": "Black", "german": "Schwarz" },
+                    { "color": "White", "german": "Weiß" },
+                    { "color": "Gray", "german": "Grau" },
+                    { "color": "Brown", "german": "Braun" },
+                    { "color": "Orange", "german": "Orange" },
+                    { "color": "Pink", "german": "Rosa" },
+                    { "color": "Purple", "german": "Lila" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Basic Grammar Rules",
+        "description": "Learn some basic grammar rules in German.",
+        "content": [
+            {
+                "type": "paragraph",
+                "description": "German grammar can be complex, but here are some basic rules to get you started."
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Nouns are always capitalized.",
+                    "There are three genders: masculine, feminine, and neuter.",
+                    "The verb usually comes second in the sentence.",
+                    "Adjectives change their endings based on the gender, number, and case of the noun they describe."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Common Verbs",
+        "description": "Learn some common German verbs.",
+        "content": [
+            {
+                "type": "table",
+                "data": [
+                    { "verb": "to be", "german": "sein" },
+                    { "verb": "to have", "german": "haben" },
+                    { "verb": "to go", "german": "gehen" },
+                    { "verb": "to come", "german": "kommen" },
+                    { "verb": "to eat", "german": "essen" },
+                    { "verb": "to drink", "german": "trinken" },
+                    { "verb": "to sleep", "german": "schlafen" },
+                    { "verb": "to speak", "german": "sprechen" },
+                    { "verb": "to read", "german": "lesen" },
+                    { "verb": "to write", "german": "schreiben" }
+                ]
+            }
+        ]
+    }
+]
+
